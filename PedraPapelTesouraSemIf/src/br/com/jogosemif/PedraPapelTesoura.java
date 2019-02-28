@@ -31,6 +31,24 @@ public class PedraPapelTesoura {
 			System.out.println("Opçao Invalida");
 			break;
 		}
+		
+		
+		int computador = (int) (Math.random()*3+1);
+		
+		switch (computador) {
+		case 1:
+			System.out.println("Computador escolheu Pedra");
+			break;
+		case 2:
+			System.out.println("Computador escolheu Papel");
+			break;
+		case 3:
+			System.out.println("Computador escolheu Tesoura");
+			break;
+		default:
+			System.out.println("Opçao Invalida");
+			break;
+		}
 
 	}
 
