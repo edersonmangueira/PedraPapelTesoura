@@ -49,7 +49,18 @@ public class PedraPapelTesoura {
 			System.out.println("Opçao Invalida");
 			break;
 		}
+		/*
+		 * int round =2; int resultado = (computador - jogador) % round;
+		 */
 
+	    switch(jogador - computador)
+	    {    
+	        case  0: System.out.println("Houve um empate!"); break;
+	        case -2: System.out.println("O jogador ganhou!"); break; 
+	        case -1: System.out.println("O Computador ganhou!"); break;
+	        case  1: System.out.println("O jogador ganhou!"); break;
+	        case  2: System.out.println("O Computador ganhou!"); break;
+	    }
 	}
 
 }
